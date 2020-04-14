@@ -1,0 +1,85 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: <b> Century Gothic </b>;
+		
+ }
+header{
+		background-image: url(../images/01.jpeg);
+		padding: 2px;
+		height: 60vh; 
+		background-size: cover;
+		background-position: center;
+		font-size: 24px;
+ }
+ ul{
+	 float: left;
+	 list-style-type: none;
+	 margin-top: 15px;
+ }
+ 
+ ul li{
+	 display: inline-block;
+}
+
+  ul li a{
+	 	text-decoration: none;
+		color:#fff;
+		padding: 10px 40px;
+		border: 2px solid #fff;
+		transition: 0.6s ease;
+		
+}
+  
+  ul li a:hover{
+		background-color: #fff;
+		color: #009900;	
+  }
+   
+.logo img{
+	  float: right;
+	  width: 50px;
+	  height: auto;
+  }
+  
+ .title h1{
+	 position: absolute;
+	 top: 60%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+ .title h1{
+	 background-color: tomato; 
+	 color: #fff;
+	 padding: 10px;
+	 font-size: 40px;
+	 text-align: center;
+ }
+ 
+ .button{
+	 font-size: 15px;
+	 position: absolute;
+	 top: 300%;
+	 left: 70%;
+	 transform: translate(-50%,-50%);
+ }
+
+ h1{
+	 float: left;
+	 padding: 15px;
+	 color: black;
+	 font-size: 24px;
+ }
+ h2{
+	 text-align: center;
+	 font-size:24px;
+	 color: black;
+ }
+ 
+ 
+  
+  
+		
+		
+		

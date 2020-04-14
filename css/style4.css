@@ -1,0 +1,138 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: <b> Century Gothic </b>;
+		
+ }
+header{
+		background-image: url(../images/JLG.jpg);
+		padding: 2px;
+		height: 60vh; 
+		background-size: cover;
+		background-position: center;
+		font-size: 24px;
+ }
+ ul{
+	 float: left;
+	 list-style-type: none;
+	 margin-top: 15px;
+ }
+ 
+ ul li{
+	 display: inline-block;
+}
+
+  ul li a{
+	 	text-decoration: none;
+		color:#fff;
+		padding: 10px 40px;
+		border: 2px solid #fff;
+		transition: 0.6s ease;
+		
+}
+  
+  ul li a:hover{
+		background-color: #fff;
+		color: #009900;	
+  }
+   
+  .logo img{
+	  float: right;
+	  width: 50px;
+	  height: auto;
+  }
+  
+ 
+ .button{
+	 font-size: 15px;
+	 position: absolute;
+	 top: 300%;
+	 left: 70%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+ .title h1{
+	 position: absolute;
+	 top: 44%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+ .title h1{
+	 background-color: #9c4e16; 
+	 color: #fff;
+	 padding: 5px;
+	 font-size: 50px;
+	 text-align: center;
+	 font-family: cambria;
+ }
+ 
+ body{
+	 background-color: #e9d0af;
+ }
+  
+ h1{
+	 padding: 10px;
+	 font-size: 35px;
+	 text-align: center;
+	 background-color:#9c4e16;
+	 color:#fff;
+}
+ h2{
+	 padding: 10px;
+	 font-size: 35px;
+	 text-align: center;
+	 background-color:#9c4e16;
+	 color:#fff;
+}
+h3{
+	padding: 10px;
+	 font-size: 35px;
+	 text-align: center;
+	 background-color:#9c4e16;
+	 color:#fff;
+}
+
+iframe{
+ width: 700px;
+ height:550px;
+ vertical-align: middle;
+ float: left;
+ border: solid #9c4e16 2px;
+ margin: 10px 15px 15px 10px
+}
+
+p{
+	display: inline;
+	font-size: 30px;
+	font-family: sans serif;
+	font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  overflow: hidden;
+  right: 0px;
+  width: 40px;
+  line-height: 40px;
+  z-index: 999;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #e4c49b;
+  color: #9c4e16;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#myBtn:hover {
+  background-color: #e9d0af;
+  color: #fff;
+}

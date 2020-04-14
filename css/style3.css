@@ -1,0 +1,277 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: <b> Century Gothic </b>;
+		
+ }
+header{
+		background-image: url(../images/01.png);
+		padding: 2px;
+		height: 60vh; 
+		background-size: cover;
+		background-position: center;
+		font-size: 24px;
+ }
+ ul{
+	 float: left;
+	 list-style-type: none;
+	 margin-top: 15px;
+ }
+ 
+ ul li{
+	 display: inline-block;
+}
+
+  ul li a{
+	 	text-decoration: none;
+		color:#fff;
+		padding: 10px 40px;
+		border: 2px solid #fff;
+		transition: 0.6s ease;
+		
+}
+  
+  ul li a:hover{
+		background-color: #fff;
+		color: #009900;	
+  }
+   
+  .logo img{
+	  float: right;
+	  width: 50px;
+	  height: auto;
+  }
+  
+  .title h1{
+	 position: absolute;
+	 top: 30%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+
+.title h1{
+	 font-size: 50px;
+	 font-family: cambria;
+	 font-weight: bold;
+	 text-align: center;
+	 color: white;
+	 background-color: #0099e6;
+}
+ 
+ .button{
+	 font-size: 15px;
+	 position: absolute;
+	 top: 300%;
+	 left: 70%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+ body{
+	 background-color: #e6f2ff;
+ }
+  
+.snake, .zipline, .frog, .squirrel, .birdwing, .crab{
+  position: relative;
+  width: 50%;
+  display: inline;
+  padding-left: 50px;
+} 
+.image {
+  display: inline-block;
+  border-radius: 15px;
+  width: 350px;
+  height: 300px;
+}
+#overlayimgs{
+    text-align: left;
+    padding-top: 20px;
+	padding-bottom: 30px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  height: 305px;
+  width: 350px;
+  opacity: 0;
+  transition: 0.7s ease;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.snake:hover .overlay{
+  opacity: 1;
+  background-color: #008CBA;
+}
+.zipline:hover .overlay{
+    opacity: 1;
+	background-color: #ff80b3;
+}
+.frog:hover .overlay{
+    opacity: 1;
+	background-color: #00cc99;
+}
+
+.squirrel:hover .overlay{
+  opacity: 1;
+  background-color: #cc0099;
+}
+.birdwing:hover .overlay{
+    opacity: 1;
+	background-color: #ff9933;
+}
+.crab:hover .overlay{
+    opacity: 1;
+	background-color: #ffcc00;
+}
+.h3text, .h3text2, .h3text3, .h3text4, .h3text5, .h3text6{
+  font-family: cambria;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text, .text2, .text3, .text4, .text5, .text6{
+  font-family: "playfair display";
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #0099e6;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column2 img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column2 img:hover {
+  opacity: 1;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container2 {
+  position: relative;
+  display: none;
+}
+
+#imgtext2 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.closebtn2 {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: #0099e6;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  overflow: hidden;
+  right: 0px;
+  width: 40px;
+  line-height: 40px;
+  z-index: 999;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #0099e6;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#myBtn:hover {
+  background-color: #0099e6;
+  color: #fff;
+}

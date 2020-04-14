@@ -1,0 +1,205 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: <b> Century Gothic </b>;
+}
+ 
+ header{
+		background-image: url(../images/exp.jpg);
+		padding: 2px;
+		height: 60vh; 
+		background-size: cover;
+		background-position: center;
+		font-size: 24px;
+ }
+ 
+ .logo img{
+	  float: right;
+	  width: 50px;
+	  height: auto;
+	  border: none;
+	  margin; 0px 0px 0px 0px;
+  }
+  
+  .title h1{
+	 position: absolute;
+	 top: 30%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+ }
+ 
+
+.title h1{
+	 font-size: 50px;
+	 font-family: cambria;
+	 font-weight: bold;
+	 text-align: center;
+	 color: white;
+	 background-color: #339933;
+}
+ 
+ .button{
+	 font-size: 15px;
+	 position: absolute;
+	 top: 78%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+ } 
+
+ ul{
+	 float: left;
+	 list-style-type: none;
+	 margin-top: 15px;
+ }
+ 
+ ul li{
+	 display: inline-block;
+}
+
+  ul li a{
+	 	text-decoration: none;
+		color:#fff;
+		padding: 10px 40px;
+		border: 2px solid #fff;
+		transition: 0.6s ease;
+		
+}
+  
+  ul li a:hover{
+		background-color: #fff;
+		color: #009900;	
+  }
+   
+ }
+ 
+  body{
+	background-color: #e6f4ff;
+}
+	 
+ p {
+	 display: inline;
+	 font-size: 20px;
+ }
+  
+img {
+ width: 500px;
+ height:300px;
+ vertical-align: middle;
+ float: left;
+ border: solid black 2px;
+ margin: 10px 15px 15px 10px
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  padding: 16px;
+  margin-top: -90px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 16px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 15px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 16px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 26.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  overflow: hidden;
+  right: 0px;
+  width: 40px;
+  line-height: 40px;
+  z-index: 999;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  color: #339933;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#myBtn:hover {
+  background-color: #fff;
+  color: black;
+}
